@@ -4,17 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Filmes e Séries</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="shortcut icon" href="Favicons/Filmes.ico" type="image/x-icon">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css" media="all">
-    <link rel="stylesheet" href="estilo.css" media="screen and (max-width:600px;)">
-    <link rel="stylesheet" href="estilo.css" media="screen and (min-width:600px) and (max-width: 768px;) ">
-    <link rel="stylesheet" href="estilo.css" media="screen and (min-width:768px;) and (max-width:992px;)">
-    <link rel="stylesheet" href="estilo.css" media="screen and (min-width:992px;) and (max-width:1200px;)">
-    <link rel="stylesheet" href="estilo.css" media="screen and (min-width:1200px;) ">
-    <link rel="stylesheet" href="estilo.css" media="print and (orientation: portrait) ">
-    <link rel="stylesheet" href="estilo.css" media="print and (orientation: landscape) ">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css" media="screen and (min-width: 600px) and (max-width: 768px)">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css" media="screen and (max-width: 600px)">
+    <link rel="shortcut icon" href="Favicons/Filmes.ico" type="image/x-icon">
 
     <style>
         table, td, th{
@@ -37,6 +31,7 @@
 </head>
 
 <body>
+    <div class="container-fluid">
     <div class="cabeçalho">
         <header>
 
@@ -65,8 +60,9 @@
             <h1 class="tituloDaPagina">Filmes e Séries</h1>
         </header>
     </div>
+    </div>
 
-
+    <div class="container-fluid">
     <div class="conteúdo" style="min-height: 3500px; max-height: 10000px;">
 
         <p>Traz a pipoca que o filme já vai começar!!</p>
@@ -192,6 +188,7 @@
             </tbody>
         </table>
         <p><a href="Filmes_e_Series.html" style="color: rgb(180, 7, 180); font-size: 15pt;" >Voltar ao início</a></p>
+    </div>
     </div>
 
     <footer id="rodape">

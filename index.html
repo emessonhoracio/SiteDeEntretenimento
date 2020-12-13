@@ -4,91 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <title>Página Inicial</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="shortcut icon" href="Favicons/paginaInicial.ico" type="image/x-icon">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css" media="all">
-    <link rel="stylesheet" href="estilo.css" media="screen and (max-width:600px;)">
-    <link rel="stylesheet" href="estilo.css" media="screen and (min-width:600px) and (max-width: 768px;) ">
-    <link rel="stylesheet" href="estilo.css" media="screen and (min-width:768px;) and (max-width:992px;)">
-    <link rel="stylesheet" href="estilo.css" media="screen and (min-width:992px;) and (max-width:1200px;)">
-    <link rel="stylesheet" href="estilo.css" media="screen and (min-width:1200px;) ">
-    <link rel="stylesheet" href="estilo.css" media="print and (orientation: portrait) ">
-    <link rel="stylesheet" href="estilo.css" media="print and (orientation: landscape) ">
-
-
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css" media="screen and (min-width: 600px) and (max-width: 768px)">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css" media="screen and (max-width: 600px)">
+    <link rel="shortcut icon" href="Favicons/paginaInicial.ico" type="image/x-icon">
+    
 
 </head>
 
 <body>
-    <div class="cabeçalho">
-        <header>
+    <div class="container-fluid">
+        <div class="cabeçalho">
+                <header>
 
-            <nav id="menu">
+                    <nav id="menu">
+                        <ul>
+                            <li>
+                                <a href="index.html"> Inicio</a>
+                            </li>
+                            <li>
+                                <a href="AtividadesFisicas.html"> Atividades Fisicas</a>
+                            </li>
+                            <li>
+                                <a href="Livros.html"> Livros</a>
+                            </li>
+                            <li>
+                                <a href="Animes.html"> Animes</a>
+                            </li>
+                            <li>
+                                <a href="Filmes_e_Series.html"> Filmes e Series</a>
+                            </li>
+                            <li>
+                                <a href="sobre.html"> Informações</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+                <h1 class="tituloDaPagina">Levando entretenimento</h1>
+        </div>
+    </div>
+    <div class="container-fluid">
+
+            <div class="conteúdo" style="min-height: 600px; max-height: 2000px;">
+                <h1>Introdução</h1>
+
+                <hr>
+                <p>
+                    Esse projeto propõe entretenimento durante esse momento de pandemia. Nele apresentaremos diversas maneiras que encontramos para ajudar as pessoas a passarem por esse momento que estamos vivendo. Aqui trataremos de exemplos específicos, como: Atividades
+                    Físicas, Animes, Livros, Filmes e Séries.</p>
+                <hr>
                 <ul>
-                    <li>
-                        <a href="index.html"> Inicio</a>
-                    </li>
-                    <li>
-                        <a href="AtividadesFisicas.html"> Atividades Fisicas</a>
-                    </li>
-                    <li>
-                        <a href="Livros.html"> Livros</a>
-                    </li>
-                    <li>
-                        <a href="Animes.html"> Animes</a>
-                    </li>
-                    <li>
-                        <a href="Filmes_e_Series.html"> Filmes e Series</a>
-                    </li>
-                    <li>
-                        <a href="sobre.html"> Informações</a>
-                    </li>
+                    <li> <a href="AtividadesFisicas.html" target="_self">Atividades Físicas</a> para que as pessoas compreendam que é importante continuar praticando mesmo que em casa para o bem de nossa saúde.</li>
+                    <li><a href="Livros.html" target="_self">Livros</a> para que as pessoas entendam que é a saúde mental é tão importante quanto a saúde física.</li>
+                    <li><a href="Animes.html" target="_self">Animes</a>, <a href="Filmes_e_Series.html" target="_self"> Filmes e Séries</a> para que as pessoas façam algo parecido com o nosso cotidiano antes da pandemia, ou seja, que as pessoas façam em suas casas
+                        momentos em família como faria se os cinemas estivessem abertos.</li>
+
                 </ul>
-            </nav>
-        </header>
-        <h1 class="tituloDaPagina">Levando entretenimento</h1>
+
+                <hr>
+                <p>
+                    A ideia geral desse projeto é ajudar as pessoas a passarem por esse momento tão difícil da melhor forma possível, visando que a grande maioria consiga passar por esse momento sem nenhum sequela psicológica ou para os que já sofrem com problemas psicológicos
+                    consigam passar por isso sem agravar mais o seu estado.</p>
+
+                <br>
+                <hr>
+                <p>
+                    <h2>Oque você achou?</h2>
+                    <p>Nos ajude a melhorar o desempenho do nosso site, respondendo um curto e simples formulário. Desde já agradecemos </p>
+                    <a href="formulario.html " target="_self ">
+                        <h4>Preencher formulário</h4>
+                    </a>
+
+                </p>
+
+            </div>
+
+            <footer id="rodape">
+                <p>Copyright &copy; 2020 - by Emily Rocha, Emesson Horácio, Sidney, Carina e Isabely</p>
+
+            </footer>
     </div>
-
-
-    <div class="conteúdo" style="min-height: 600px; max-height: 2000px;">
-        <h1>Introdução</h1>
-
-        <hr>
-        <p>
-            Esse projeto propõe entretenimento durante esse momento de pandemia. Nele apresentaremos diversas maneiras que encontramos para ajudar as pessoas a passarem por esse momento que estamos vivendo. Aqui trataremos de exemplos específicos, como: Atividades
-            Físicas, Animes, Livros, Filmes e Séries.</p>
-        <hr>
-        <ul>
-            <li> <a href="AtividadesFisicas.html" target="_self">Atividades Físicas</a> para que as pessoas compreendam que é importante continuar praticando mesmo que em casa para o bem de nossa saúde.</li>
-            <li><a href="Livros.html" target="_self">Livros</a> para que as pessoas entendam que é a saúde mental é tão importante quanto a saúde física.</li>
-            <li><a href="Animes.html" target="_self">Animes</a>, <a href="Filmes_e_Series.html" target="_self"> Filmes e Séries</a> para que as pessoas façam algo parecido com o nosso cotidiano antes da pandemia, ou seja, que as pessoas façam em suas casas
-                momentos em família como faria se os cinemas estivessem abertos.</li>
-
-        </ul>
-
-        <hr>
-        <p>
-            A ideia geral desse projeto é ajudar as pessoas a passarem por esse momento tão difícil da melhor forma possível, visando que a grande maioria consiga passar por esse momento sem nenhum sequela psicológica ou para os que já sofrem com problemas psicológicos
-            consigam passar por isso sem agravar mais o seu estado.</p>
-
-        <br>
-        <hr>
-        <p>
-            <h2>Oque você achou?</h2>
-            <p>Nos ajude a melhorar o desempenho do nosso site, respondendo um curto e simples formulário. Desde já agradecemos </p>
-            <a href="formulario.html " target="_self ">
-                <h4>Preencher formulário</h4>
-            </a>
-
-        </p>
-
-    </div>
-
-    <footer id="rodape">
-        <p>Copyright &copy; 2020 - by Emily Rocha, Emesson Horácio, Sidney, Carina e Isabely</p>
-
-    </footer>
 </body>
 
 </html>

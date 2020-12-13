@@ -4,22 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Formulário</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="shortcut icon" href="Favicons/paginaInicial.ico" type="image/x-icon">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css" media="all">
-    <link rel="stylesheet" href="estilo.css" media="screen and (max-width:600px;)">
-    <link rel="stylesheet" href="estilo.css" media="screen and (min-width:600px) and (max-width: 768px;) ">
-    <link rel="stylesheet" href="estilo.css" media="screen and (min-width:768px;) and (max-width:992px;)">
-    <link rel="stylesheet" href="estilo.css" media="screen and (min-width:992px;) and (max-width:1200px;)">
-    <link rel="stylesheet" href="estilo.css" media="screen and (min-width:1200px;) ">
-    <link rel="stylesheet" href="estilo.css" media="print and (orientation: portrait) ">
-    <link rel="stylesheet" href="estilo.css" media="print and (orientation: landscape) ">
-
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css" media="screen and (min-width: 600px) and (max-width: 768px)">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="shortcut icon" href="Favicons/paginaInicial.ico" type="image/x-icon">
 
 </head>
 
-<body>
+<body id="corpo">
+    <div class="container-fluid">
     <div class="cabeçalho">
         <header>
 
@@ -48,8 +43,9 @@
             <h1 class="tituloDaPagina">Formulário</h1>
         </header>
     </div>
+    </div>
 
-
+    <div class="container-fluid">
     <div class="conteúdo" style="min-height:600px; max-height:2000px;">
 
         <form>
@@ -89,7 +85,7 @@
 
                 <p>
                     <label for="uti"> O site foi útil para você</label>
-                    <select name="futi" id="uti">
+                    <select class="form-control" name="futi" id="uti">
                         <option value=""> Sejá sincero!</option>
                         <optgroup>
                           <option value="S">Sim</option>
@@ -101,7 +97,7 @@
                 <p>
                     <label for="desc">Surgestão de mudanças ou melhoramentos:</label>
                     <br>
-                    <textarea name="idescri" id="desc" cols="30" rows="10"></textarea>
+                    <textarea class="form-control" name="idescri" id="desc" cols="30" rows="10"></textarea>
 
                 </p>
 
@@ -109,8 +105,9 @@
                     <label for="satisfacao">Nivel de Satisfação</label> <input type="range" name="fsat" id="satisfacao">
                 </p>
                 <p>
-                    <input onclick="validacao()" id="enviar" type="submit" value="Enviar">
-                    <input type="reset" value="Limpar">
+                    
+                    <input onclick="validacao()" id="enviar" type="submit" class="btn btn-primary" value="Enviar">
+                    <input type="reset" class="btn btn-primary" value="Limpar">
 
                 </p>
 
@@ -119,6 +116,7 @@
         </form>
 
 
+    </div>
     </div>
     <script src="validacao.js"></script>
 

@@ -4,22 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Sobre</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="shortcut icon" href="Favicons/paginaInicial.ico" type="image/x-icon">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css" media="all">
-    <link rel="stylesheet" href="estilo.css" media="screen and (max-width:600px;)">
-    <link rel="stylesheet" href="estilo.css" media="screen and (min-width:600px) and (max-width: 768px;) ">
-    <link rel="stylesheet" href="estilo.css" media="screen and (min-width:768px;) and (max-width:992px;)">
-    <link rel="stylesheet" href="estilo.css" media="screen and (min-width:992px;) and (max-width:1200px;)">
-    <link rel="stylesheet" href="estilo.css" media="screen and (min-width:1200px;) ">
-    <link rel="stylesheet" href="estilo.css" media="print and (orientation: portrait) ">
-    <link rel="stylesheet" href="estilo.css" media="print and (orientation: landscape) ">
-
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css" media="screen and (min-width: 600px) and (max-width: 768px)">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css" media="screen and (max-width: 600px)">
+    <link rel="shortcut icon" href="Favicons/paginaInicial.ico" type="image/x-icon">
 
 </head>
 
 <body>
+    <div class="container-fluid">
     <div class="cabeçalho">
         <header>
 
@@ -48,18 +42,20 @@
             <h1 class="tituloDaPagina">Informações</h1>
         </header>
     </div>
+    </div>
 
-
+    <div class="container-fluid">
     <div class="infor_conteudo" style="min-height: 600px; max-height: 2000px;">
-        <p>
+        <p id="informacao">
             <ul>
                 <h2>Criadores do site:</h2>
-                <li>Emily Vitóia de Jesus Rcha</li>
-                <li>Emersson Horácio dos Satos</li>
+                <li>Emily Vitóia de Jesus Rocha</li>
+                <li>Emesson Horácio dos Santos</li>
                 <li>Isabelly Leandro de Oliveira Fernandes</li>
                 <li>Carina da Silva Santos</li>
                 <li>Sidney José Tenório Araújo</li>
             </ul>
+            <button type="button" onclick="cliquei()" id="botao">Mais</button>
         </p>
 
         <br>
@@ -78,7 +74,7 @@
 
 
     </div>
-
+    <script src="validacao.js"></script>
 
     <footer id="rodape">
         <p>Copyright &copy; 2020 - by Emily Rocha, Emesson Horácio, Sidney, Carina e Isabely</p>
@@ -86,6 +82,7 @@
 
 
     </footer>
+    </body>
 </body>
 
 </html>

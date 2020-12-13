@@ -93,6 +93,30 @@ Foi criado a página formulario.html
         1. Adicionamento de campos nome e data obrigatorios.
         2. Adicionamento de alertas.
 
+---
+
+#**Modificações [Entrega 7]**
+
+Foi adicionado todos os arquivos do Bootstrap
+
+##**Modificações realizadas nos arquivos existentes**
+
+1. Arquivos: Animes.html, AtividadesFisicas.html, Filmes_e_Series.html, formulario.html,        index.html, Livros.html e sobre.html
+   Modificação: Tirei todas as declarações das media queries desses arquivos
+
+2. Arquivos: index.html, sobre.html, Livros.html, formulario.html, Filmes_e_Series.html,        AtividadeFisica.html, Animes.html;
+   modificação: coloquei a tag meta configurando a viewport, coloquei bootstrap, sistema de grid.
+
+3. arquivo: formulário.html;
+    modificação: Coloquei o botão enviar e resetar com o css do bootstrap coloque a class class="btn btn-primary", carreguei a o arquivo css do bootstrap com a tag <\link>, coloquei a área do texto como class = “form-control”, select também com a class “form-control”.
+
+4. Arquivo: validacao.js;
+   modificação: adicionei a função cliquei(), ao clicar no botão um e-mail vai aparecer, clicando novamente no mesmo botão o e-mail some.
+
+5. Arquivo: sobre.html
+   Modificações: Carreguei o <\script src="validacao"> e adicionei um botão.
+
+---
 
 ##**Integrantes da Equipe**
 1. Carina da Silva Santos
